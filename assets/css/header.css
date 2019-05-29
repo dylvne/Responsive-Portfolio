@@ -88,7 +88,9 @@ nav li + li:before{
     width:52px;
     height:52px;
     top:2px;
-    left: 428px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 .logoTitle{
     /* this is my name Delane Chen but really big and on the top of the page */

@@ -69,13 +69,37 @@ section{
 }
 
 @media screen and (max-width: 980px){
-
+    .wrapper{
+        width:780px;
+    }
+    .logoAlign{
+        width:780px;
+    }
+    .logoTitle{
+        font-size:150%;
+    }
 }
 
 @media screen and (max-width: 768px){
-    
+    .wrapper{
+        width:620px;
+    }
+    .logoAlign{
+        width:620px;
+    }
+    .logoTitle{
+        font-size:138%;
+    }
 }
 
 @media screen and (max-width: 640px){
-    
+    .wrapper{
+        width:580px;
+    }
+    .logoAlign{
+        width:580px;
+    }
+    .logoTitle{
+        font-size:125%;
+    }
 }
