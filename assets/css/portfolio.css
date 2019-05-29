@@ -1,0 +1,26 @@
+.portfolioCover{
+    position: relative;
+    float:left;
+    margin: 0 20px 40px 20px
+}
+.portfolioImage{
+    width:250px;
+    height: auto;
+}
+.portfolioBox{
+    position: absolute;
+    background-color: peachpuff;
+    width: 250px;
+    height: 40px;
+    bottom: 18px;
+    text-align: center;
+}
+.portfolioTitle{
+    color: rgb(235, 39, 72);
+}
+.clear {clear: both;}
+
+
+
+/* here is all the body oriented tags for the page */
+

@@ -1,0 +1,102 @@
+
+/* this helps keep things organized */
+/* also set up for the rest of the html */
+*,*:before, *:after{
+    box-sizing: border-box;
+}
+
+/* font headers */
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: xx-large;
+    filter: drop-shadow(1px 1px 0px black)
+}
+h2{
+    font-size: xx-large;
+    filter: drop-shadow(1px 1px 0px black)
+}
+/* link specifications */
+a {
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   text-decoration: none;
+   color:#777777;
+}
+
+
+
+
+
+
+/* header specifications */
+.header{
+    background-color:#ffffff;
+    height:60px;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    border-style: solid;
+    position: relative;
+}
+
+
+
+
+/* the nav bar */
+nav{
+    position: absolute;
+    right:0;
+    bottom: 40%;
+}
+
+/* this makes the nav bar horizonal */
+li{float: left;}
+
+/* this puts a | between each link */
+nav li + li:before{
+    content: " | ";
+    padding: 0 10px;
+    color:#777777;
+}
+
+
+
+
+
+
+
+
+/* logo and title specifications */
+/* this keeps the logo and title aligned to the edge of the page content */
+.logoAlign{
+    width: 960px;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+}
+.logoBox{
+    /* this is the background color for the name */
+    background-color:rgb(235, 39, 72);
+    position: absolute; 
+    left:0;
+    width:21%;
+    height:58px;
+}
+.flowerLogo{
+    /* the flower logo located in the  middle of the page */
+    position: absolute;
+    width:52px;
+    height:52px;
+    top:2px;
+    left: 428px;
+}
+.logoTitle{
+    /* this is my name Delane Chen but really big and on the top of the page */
+    position: absolute;
+    text-align: center;
+    top: 24%;
+    left: 4%;
+    font-size: 200%;
+    color: white;
+    filter: drop-shadow(3px 2px 0px black);
+}
